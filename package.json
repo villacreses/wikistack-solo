@@ -1,7 +1,6 @@
 {
   "name": "wikistack-solo",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +14,6 @@
   "bugs": {
     "url": "https://github.com/villacreses/wikistack-solo/issues"
   },
-  "homepage": "https://github.com/villacreses/wikistack-solo#readme"
+  "homepage": "https://github.com/villacreses/wikistack-solo#readme",
+  "description": ""
 }

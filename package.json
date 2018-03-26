@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e html,css,js app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
     "url": "https://github.com/villacreses/wikistack-solo/issues"
   },
   "homepage": "https://github.com/villacreses/wikistack-solo#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "nunjucks": "^3.1.2",
+    "pg": "^6.4.2",
+    "sequelize": "^4.37.4"
+  }
 }
